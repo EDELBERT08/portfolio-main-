@@ -24,7 +24,7 @@ jobs:
       - image: cimg/node:20.10.0
     steps:
       - checkout
-      -nY run:
+      - run:
           name: Install dependencies
           command: npm install
       - run:
