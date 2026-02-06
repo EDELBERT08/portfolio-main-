@@ -37,7 +37,7 @@ const Projects = () => {
 
     return (
         <section id="projects" ref={sectionRef} className="section-padding">
-            <div className="w-full md:px-20 px-5">
+            <div className="w-full max-w-7xl mx-auto md:px-20 px-5">
                 <TitleHeader
                     title="Featured Projects"
                     sub="🚀 Technical Innovation & Problem Solving"
