@@ -24,7 +24,7 @@ jobs:
       - image: cimg/node:20.10.0
     steps:
       - checkout
-      -nY run:
+      - run:
           name: Install dependencies
           command: npm install
       - run:
@@ -37,6 +37,19 @@ jobs:
               -Dsonar.host.url=https://sonarcloud.io \
               -Dsonar.login=$SONAR_TOKEN
 
+
+  record_deploy:
+    docker:
+      - image: cimg/base:current
+    steps:
+      - run:
+          name: Create Release Marker
+          command: |
+            # Create a release plan (marker)
+            circleci run release plan --component-name portfolio --environment-name production --deploy-name build-${CIRCLE_BUILD_NUM}
+            # Update the status to successful (assuming previous jobs passed)
+            circleci run release update --status successful
+
 workflows:
   build_test_and_scan:
     jobs:
@@ -44,3 +57,9 @@ workflows:
       - sonar_scan:
           requires:
             - build_and_test
+      - record_deploy:
+          requires:
+            - sonar_scan
+          filters:
+            branches:
+              only: main
