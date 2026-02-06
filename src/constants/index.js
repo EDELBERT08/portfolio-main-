@@ -1,7 +1,7 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: "Projects",
+    link: "#projects",
   },
   {
     name: "Experience",
@@ -12,254 +12,283 @@ const navLinks = [
     link: "#skills",
   },
   {
-    name: "Testimonials",
-    link: "#testimonials",
+    name: "Certificates",
+    link: "#certificates",
   },
 ];
 
 const words = [
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
-  { text: "Ideas", imgPath: "/images/ideas.svg" },
-  { text: "Concepts", imgPath: "/images/concepts.svg" },
-  { text: "Designs", imgPath: "/images/designs.svg" },
-  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Systems", imgPath: "/images/code.svg" },
+  { text: "Engineering", imgPath: "/images/code.svg" },
+  { text: "Backend", imgPath: "/images/code.svg" },
+  { text: "Infrastructure", imgPath: "/images/code.svg" },
+  { text: "Compliance", imgPath: "/images/code.svg" },
+  { text: "Resilience", imgPath: "/images/code.svg" },
+  { text: "Innovation", imgPath: "/images/code.svg" },
+  { text: "Automation", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 98, suffix: "%", label: "Regulatory Compliance" },
+  { value: 70, suffix: "%", label: "Registration Time Reduction" },
+  { value: 99, suffix: "%", label: "System Uptime" },
+  { value: 15, suffix: "%", label: "Efficiency Improvement" },
 ];
 
 const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+  { imgPath: "/images/logos/company-logo-1.png" },
+  { imgPath: "/images/logos/company-logo-2.png" },
 ];
 
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Strategic Systems Engineering",
+    desc: "Expertise in Health Insurance Systems management and infrastructure optimization.",
   },
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    desc: "Bridging the gap between business needs and technical specifications.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Project Delivery",
+    desc: "Proven track record in managing critical system upgrades and disaster recovery.",
   },
 ];
 
 const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
+  { name: "React", imgPath: "/images/logos/react.png" },
+  { name: "Python", imgPath: "/images/logos/python.svg" },
+  { name: "Node.js", imgPath: "/images/logos/node.png" },
+  { name: "Three.js", imgPath: "/images/logos/three.png" },
+  { name: "Git", imgPath: "/images/logos/git.svg" },
 ];
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    name: "React",
+    imgPath: "/images/logos/react-icon.svg",
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
+    name: "Python",
+    imgPath: "/images/logos/python-icon.svg",
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: "Node.js",
+    imgPath: "/images/logos/node-icon.svg",
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
+    name: "Three.js",
+    imgPath: "/images/logos/threejs.svg",
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
+    name: "Git",
+    imgPath: "/images/logos/git-icon.svg",
+  },
+  {
+    name: "Kotlin",
+    imgPath: "/images/logos/kotlin.svg",
+  },
+  {
+    name: "Spring Boot",
+    imgPath: "/images/logos/springboot.svg",
+  },
+  {
+    name: "Go",
+    imgPath: "/images/logos/go.svg",
+  },
+  {
+    name: "AWS",
+    imgPath: "/images/logos/aws.svg",
+  },
+  {
+    name: "MariaDB",
+    imgPath: "/images/logos/mariadb.svg",
+  },
+  {
+    name: "Vue.js",
+    imgPath: "/images/logos/vue.svg",
   },
 ];
 
 const expCards = [
   {
-    review: "Edelbert brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Strategically managed Health Insurance Systems, conducting RCA and ensuring 24/7 availability through rigorous health checks and security audits.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Systems Engineer",
+    company: "APA Insurance",
+    date: "Dec 2024 – Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Translated business requirements into technical specifications for system acquisitions.",
+      "Performed comprehensive RCA to diagnose and resolve system errors and change requests.",
+      "Managed end-to-end testing, deployment, and implementation of system upgrades.",
+      "Orchestrated system health checks and security audits for high availability.",
+      "Executed Disaster Recovery operations and maintained infrastructure resilience.",
     ],
   },
   {
-    review: "Edelbert’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Achieved 98% regulatory compliance and reduced claims processing cycle time by 15% through operational enhancements in Actisure system.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Provider & Claims Operations Associate",
+    company: "APA Insurance",
+    date: "Jun 2024 - Nov 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Validated and reconciled medical claims data with 99% accuracy rate.",
+      "Collaborated with IT to implement business rules for automated claim adjudication.",
+      "Analyzed claims trends to identify bottlenecks and recommend improvements.",
+      "Maintained strategic relationships with healthcare providers.",
     ],
   },
   {
-    review: "Edelbert’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Ensured 99%+ uptime for educational operations by administering multi-platform IT infrastructure and implementing security policies.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "IT Support Specialist",
+    company: "Chebisaas Boys’ National High School",
+    date: "May 2023 - Nov 2023",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Administered multi-platform IT infrastructure and Windows OS deployments.",
+      "Executed incident resolution and hardware diagnostics to minimize MTTR.",
+      "Administered Active Directory RBAC and endpoint security policies.",
+      "Orchestrated patch management cycles and automated backup operations.",
     ],
   },
 ];
 
-const expLogos = [
+const projects = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    title: "QR Event Registration System",
+    desc: "High-performance event platform reducing registration time by 70% through real-time QR validation and instant analytics.",
+    tech: ["Golang", "Vanilla JavaScript"],
+    href: "https://github.com/EDELBERT08",
+    logo: "", // Removing missing logo
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    tags: [
+      { id: 1, name: "Go", path: "" },
+      { id: 2, name: "JavaScript", path: "" },
+    ],
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
+    title: "Legal OCR & AI Intelligence Platform",
+    desc: "AI-powered document processing system that automated legal document extraction and classification using machine learning.",
+    tech: ["Kotlin", "Spring Boot", "Vue.js"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    tags: [
+      { id: 1, name: "Kotlin", path: "" },
+      { id: 2, name: "Spring Boot", path: "" },
+      { id: 3, name: "Vue", path: "" },
+    ],
   },
   {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    title: "Provider Management System",
+    desc: "Centralized healthcare provider network platform for credentials, contracts, and compliance tracking with real-time validation.",
+    tech: ["Kotlin", "Spring Boot", "Vue.js"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#60f5a1",
+      background:
+        "linear-gradient(0deg, #60f5a1, #60f5a1), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      border: "0.2px solid rgba(208, 213, 221, 1)",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    tags: [
+      { id: 1, name: "Kotlin", path: "" },
+      { id: 2, name: "Spring Boot", path: "" },
+      { id: 3, name: "Vue", path: "" },
+    ],
+  },
+  {
+    title: "Chronic Disease Management (WhatsApp Integration)",
+    desc: "Patient engagement platform enabling automated monitoring, medication reminders, and health education via WhatsApp API.",
+    tech: ["Kotlin", "Spring Boot", "Vue.js", "WhatsApp API"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#0E1F38",
+      border: "0.2px solid #0E2D58",
+      boxShadow: "0px 0px 60px 0px #2F67B64D",
+    },
+    tags: [
+      { id: 1, name: "Kotlin", path: "" },
+      { id: 2, name: "Spring Boot", path: "" },
+      { id: 3, name: "WhatsApp", path: "" },
+    ],
+  },
+];
+
+const certifications = [
+  {
+    title: "Google Advanced Data Analytics",
+    issuer: "Coursera/Google",
+    date: "",
+  },
+  {
+    title: "Data Analytics",
+    issuer: "ExploreAI Academy",
+    date: "",
+  },
+  {
+    title: "Professional Development Skills for the Digital Age",
+    issuer: "ExploreAI Academy",
+    date: "",
+  },
+  {
+    title: "Information Systems Auditing, Controls and Assurance",
+    issuer: "Coursera/The Hong Kong University of Science and Technology",
+    date: "",
+  },
+  {
+    title: "Cloud Audit Academy for Federal and DoD Workloads in AWS",
+    issuer: "AWS",
+    date: "",
+  },
+  {
+    title: "Data Visualization and Dashboards with Excel",
+    issuer: "Coursera",
+    date: "",
   },
 ];
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
-    review:
-      "I can’t say enough good things about Edelbert. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+    name: "Cosmas Langat",
+    mentions: "Enterprise Application Manager-Health Division, APA Insurance",
+    review: "Reference available upon request.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Edelbert was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Edelbert was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Edelbert's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Edelbert is the ideal partner.",
+    name: "Mercline Monari",
+    mentions: "Quality Assurance Manager, APA Insurance",
+    review: "Reference available upon request.",
     imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Edelbert was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Edelbert’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Edelbert was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
   },
 ];
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "linkedin",
+    imgPath: "/images/linkedin.png",
+    href: "https://linkedin.com/in/edelbert-kipchumba-a947922b7",
   },
   {
     name: "x",
     imgPath: "/images/x.png",
-  },
-  {
-    name: "linkedin",
-    imgPath: "/images/linkedin.png",
+    href: "https://x.com",
   },
 ];
 
@@ -269,10 +298,11 @@ export {
   logoIconsList,
   counterItems,
   expCards,
-  expLogos,
   testimonials,
   socialImgs,
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects,
+  certifications,
 };
