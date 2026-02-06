@@ -1,4 +1,5 @@
 import Hero from "./sections/Hero";
+import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Certificates from "./sections/Certificates";
 import Experience from "./sections/Experience";
@@ -12,6 +13,7 @@ const App = () => (
   <main className="max-w-7xl mx-auto overflow-x-hidden">
     <Navbar />
     <Hero />
+    <About />
     <Projects />
     <Certificates />
     <Experience />

@@ -1,5 +1,9 @@
 const navLinks = [
   {
+    name: "About",
+    link: "#about",
+  },
+  {
     name: "Projects",
     link: "#projects",
   },
@@ -161,42 +165,9 @@ const expCards = [
 
 const projects = [
   {
-    title: "QR Event Registration System",
-    desc: "High-performance event platform reducing registration time by 70% through real-time QR validation and instant analytics.",
-    tech: ["Golang", "Vanilla JavaScript"],
-    href: "https://github.com/EDELBERT08",
-    logo: "", // Removing missing logo
-    logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D",
-    },
-    tags: [
-      { id: 1, name: "Go", path: "" },
-      { id: 2, name: "JavaScript", path: "" },
-    ],
-  },
-  {
-    title: "Legal OCR & AI Intelligence Platform",
-    desc: "AI-powered document processing system that automated legal document extraction and classification using machine learning.",
-    tech: ["Kotlin", "Spring Boot", "Vue.js"],
-    href: "https://github.com/EDELBERT08",
-    logo: "",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    tags: [
-      { id: 1, name: "Kotlin", path: "" },
-      { id: 2, name: "Spring Boot", path: "" },
-      { id: 3, name: "Vue", path: "" },
-    ],
-  },
-  {
     title: "Provider Management System",
-    desc: "Centralized healthcare provider network platform for credentials, contracts, and compliance tracking with real-time validation.",
-    tech: ["Kotlin", "Spring Boot", "Vue.js"],
+    desc: "Centralized healthcare provider network platform for credentials, contracts, and compliance tracking with real-time validation logic.",
+    tech: ["Kotlin", "Spring Boot", "Vue.js", "MariaDB"],
     href: "https://github.com/EDELBERT08",
     logo: "",
     logoStyle: {
@@ -213,8 +184,8 @@ const projects = [
     ],
   },
   {
-    title: "Chronic Disease Management (WhatsApp Integration)",
-    desc: "Patient engagement platform enabling automated monitoring, medication reminders, and health education via WhatsApp API.",
+    title: "Chronic Disease Management",
+    desc: "Patient engagement platform enabling automated monitoring, medication reminders, and health education delivery via WhatsApp Business API.",
     tech: ["Kotlin", "Spring Boot", "Vue.js", "WhatsApp API"],
     href: "https://github.com/EDELBERT08",
     logo: "",
@@ -229,9 +200,79 @@ const projects = [
       { id: 3, name: "WhatsApp", path: "" },
     ],
   },
+  {
+    title: "Legal OCR & AI Intelligence",
+    desc: "AI-powered document processing system that automates legal document extraction and classification using machine learning, reducing review time significantly.",
+    tech: ["Kotlin", "Spring Boot", "Vue.js", "AI/ML"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#13202F",
+      border: "0.2px solid #17293E",
+      boxShadow: "0px 0px 60px 0px #2F6DB54D",
+    },
+    tags: [
+      { id: 1, name: "Kotlin", path: "" },
+      { id: 2, name: "Spring Boot", path: "" },
+      { id: 3, name: "AI/ML", path: "" },
+    ],
+  },
+  {
+    title: "QR Event Registration System",
+    desc: "High-performance event platform reducing registration time by 70% through real-time QR validation, instant analytics, and streamlined check-ins.",
+    tech: ["Golang", "Vanilla JavaScript"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#2A1816",
+      border: "0.2px solid #36201D",
+      boxShadow: "0px 0px 60px 0px #AA3C304D",
+    },
+    tags: [
+      { id: 1, name: "Go", path: "" },
+      { id: 2, name: "JavaScript", path: "" },
+    ],
+  },
+  {
+    title: "Rephrase AI - Text Enhancement",
+    desc: "Text processing engine with AI-powered enhancement capabilities and RESTful API services for real-time text analysis with low latency.",
+    tech: ["Go", "NLP", "AI/ML"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    tags: [
+      { id: 1, name: "Go", path: "" },
+      { id: 2, name: "NLP", path: "" },
+    ],
+  },
+  {
+    title: "LogLens - Log Management",
+    desc: "Log aggregation and visualization system for debugging and monitoring, featuring efficient parsing algorithms for large-scale data.",
+    tech: ["JavaScript", "Data Processing"],
+    href: "https://github.com/EDELBERT08",
+    logo: "",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    tags: [
+      { id: 1, name: "JavaScript", path: "" },
+      { id: 2, name: "Data", path: "" },
+    ],
+  },
 ];
 
 const certifications = [
+  {
+    title: "Bachelor of Science in Applied Physics and Computer Science",
+    issuer: "Multimedia University of Kenya",
+    date: "Sept 2019 – Oct 2023",
+  },
   {
     title: "Google Advanced Data Analytics",
     issuer: "Coursera/Google",
@@ -255,11 +296,6 @@ const certifications = [
   {
     title: "Cloud Audit Academy for Federal and DoD Workloads in AWS",
     issuer: "AWS",
-    date: "",
-  },
-  {
-    title: "Data Visualization and Dashboards with Excel",
-    issuer: "Coursera",
     date: "",
   },
 ];
@@ -286,9 +322,9 @@ const socialImgs = [
     href: "https://linkedin.com/in/edelbert-kipchumba-a947922b7",
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
-    href: "https://x.com",
+    name: "github",
+    imgPath: "/images/logos/git-icon.svg", // Reusing git icon for GitHub as no specific github icon in list
+    href: "https://github.com/EDELBERT08",
   },
 ];
 

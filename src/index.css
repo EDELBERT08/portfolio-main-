@@ -68,7 +68,7 @@ section {
   }
 
   .section-padding {
-    @apply px-5 md:px-10 md:mt-20 mt-10;
+    @apply px-5 md:px-10 md:mt-10 mt-10;
   }
 
   .mt-responsive {
@@ -101,7 +101,7 @@ section {
   }
 
   .hero-layout {
-    @apply relative z-10 xl:mt-20 mt-32 md:h-dvh h-[80vh] flex flex-col xl:flex-row xl:items-center items-start justify-center;
+    @apply relative z-10 xl:mt-12 mt-24 min-h-[50vh] flex flex-col xl:flex-row xl:items-center items-start justify-center;
   }
 
   .hero-text {
