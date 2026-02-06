@@ -69,33 +69,47 @@ const techStackImgs = [
 const techStackIcons = [
   {
     name: "React",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    imgPath: "/images/logos/react-icon.svg",
   },
   {
     name: "Python",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
+    imgPath: "/images/logos/python-icon.svg",
   },
   {
     name: "Node.js",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    imgPath: "/images/logos/node-icon.svg",
   },
   {
     name: "Three.js",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    imgPath: "/images/logos/threejs.svg",
   },
   {
     name: "Git",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 1,
-    rotation: [0, -Math.PI / 4, 0],
+    imgPath: "/images/logos/git-icon.svg",
+  },
+  {
+    name: "Kotlin",
+    imgPath: "/images/logos/kotlin.svg",
+  },
+  {
+    name: "Spring Boot",
+    imgPath: "/images/logos/springboot.svg",
+  },
+  {
+    name: "Go",
+    imgPath: "/images/logos/go.svg",
+  },
+  {
+    name: "AWS",
+    imgPath: "/images/logos/aws.svg",
+  },
+  {
+    name: "MariaDB",
+    imgPath: "/images/logos/mariadb.svg",
+  },
+  {
+    name: "Vue.js",
+    imgPath: "/images/logos/vue.svg",
   },
 ];
 
