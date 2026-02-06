@@ -1,27 +1,25 @@
-import Testimonials from "./sections/Testimonials";
-import Footer from "./sections/Footer";
-import Contact from "./sections/Contact";
-import TechStack from "./sections/TechStack";
-import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
-import ShowcaseSection from "./sections/ShowcaseSection";
-import LogoShowcase from "./sections/LogoShowcase";
-import FeatureCards from "./sections/FeatureCards";
+import Projects from "./sections/Projects";
+import Certificates from "./sections/Certificates";
+import Experience from "./sections/Experience";
+import TechStack from "./sections/TechStack";
+import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 import Navbar from "./components/NavBar";
 
 const App = () => (
-  <>
+  <main className="max-w-7xl mx-auto overflow-x-hidden">
     <Navbar />
     <Hero />
-    <ShowcaseSection />
-    <LogoShowcase />
-    <FeatureCards />
+    <Projects />
+    <Certificates />
     <Experience />
     <TechStack />
     <Testimonials />
     <Contact />
     <Footer />
-  </>
+  </main>
 );
 
 export default App;
